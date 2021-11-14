@@ -3,7 +3,7 @@ task:
     timeout_in: 100m 
     container:
       image: 
-      cpu: 1
+      cpu: 6
       memory: 24G 
     check: 
         - echo "OK"
