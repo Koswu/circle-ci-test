@@ -2,7 +2,7 @@ task:
     name: check
     timeout_in: 100m 
     container:
-      image: 
+      image: alpine
       cpu: 6
       memory: 24G 
     check: 
